@@ -1,7 +1,7 @@
 
 _files to look at:_
 
-* [Form1.cs](./CS/piesCustomExport/Form1.cs)
+* [Form1.cs](./CS/piesCustomExport/Form1.cs)/[Form1.vb](./VB/piesCustomExport/Form1.vb)
 
 # WinForms Dashboard - How to Export Customized Pie Dashboard Item
 
