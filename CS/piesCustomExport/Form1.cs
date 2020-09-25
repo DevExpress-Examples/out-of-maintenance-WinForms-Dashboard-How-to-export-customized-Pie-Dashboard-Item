@@ -32,6 +32,7 @@ namespace piesCustomExport
                 foreach (Series series in e.ChartControl.Series)
                 {
                     (series.View as PieSeriesView).TotalLabel.Visible = true;
+                    (series.View as PieSeriesView).TotalLabel.TextPattern = "Total {TV:c0}";
                 }
             }
         }
@@ -50,6 +51,7 @@ namespace piesCustomExport
                     foreach (Series series in pieChart.Series)
                     {
                         (series.View as PieSeriesView).TotalLabel.Visible = true;
+                        (series.View as PieSeriesView).TotalLabel.TextPattern = "Total {TV:c0}";
                     }
                 }
             }
