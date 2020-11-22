@@ -20,7 +20,7 @@ namespace piesCustomExport
         {
             InitializeComponent();
             dashboardDesigner1.CreateRibbon();
-            dashboardDesigner1.LoadDashboard("nwind.xml");
+            dashboardDesigner1.LoadDashboard(@"..\..\data\nwind.xml");
         }
 
         private void dashboardDesigner1_DashboardItemControlUpdated(object sender, DevExpress.DashboardWin.DashboardItemControlEventArgs e)
