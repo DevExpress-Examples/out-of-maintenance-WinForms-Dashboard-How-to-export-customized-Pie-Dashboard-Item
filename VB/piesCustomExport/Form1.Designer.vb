@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace piesCustomExport
+﻿Namespace piesCustomExport
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -38,8 +36,10 @@ Namespace piesCustomExport
 			Me.dashboardDesigner1.Name = "dashboardDesigner1"
 			Me.dashboardDesigner1.Size = New System.Drawing.Size(1096, 473)
 			Me.dashboardDesigner1.TabIndex = 0
-'			Me.dashboardDesigner1.DashboardItemControlUpdated += New DevExpress.DashboardWin.DashboardItemControlUpdatedEventHandler(Me.dashboardDesigner1_DashboardItemControlUpdated);
-'			Me.dashboardDesigner1.CustomExport += New DevExpress.DashboardCommon.CustomExportEventHandler(Me.dashboardDesigner1_CustomExport);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.dashboardDesigner1.DashboardItemControlUpdated += new DevExpress.DashboardWin.DashboardItemControlUpdatedEventHandler(this.dashboardDesigner1_DashboardItemControlUpdated);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.dashboardDesigner1.CustomExport += new DevExpress.DashboardCommon.CustomExportEventHandler(this.dashboardDesigner1_CustomExport);
 			' 
 			' Form1
 			' 

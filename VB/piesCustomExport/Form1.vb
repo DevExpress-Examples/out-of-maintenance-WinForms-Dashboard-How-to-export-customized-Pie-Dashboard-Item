@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports DevExpress.DashboardCommon
+﻿Imports DevExpress.DashboardCommon
 Imports DevExpress.DashboardWin
 Imports DevExpress.XtraCharts
 Imports DevExpress.XtraReports.UI
@@ -16,11 +15,12 @@ Imports System.Windows.Forms
 Namespace piesCustomExport
 	Partial Public Class Form1
 		Inherits Form
+
 		Public Sub New()
 			InitializeComponent()
 			dashboardDesigner1.CreateRibbon()
-            dashboardDesigner1.LoadDashboard("..\..\data\nwind.xml")
-        End Sub
+			dashboardDesigner1.LoadDashboard("..\..\data\nwind.xml")
+		End Sub
 
 		Private Sub dashboardDesigner1_DashboardItemControlUpdated(ByVal sender As Object, ByVal e As DevExpress.DashboardWin.DashboardItemControlEventArgs) Handles dashboardDesigner1.DashboardItemControlUpdated
 			If e.ChartControl IsNot Nothing Then
@@ -39,7 +39,7 @@ Namespace piesCustomExport
 			For Each printControl In e.GetPrintableControls()
 				If TypeOf printControl.Value Is XRChart Then
 					Dim pieItemName = printControl.Key
-					Dim dashboardControl As IDashboardControl = CType(sender, IDashboardControl)
+					Dim dashboardControl As IDashboardControl = DirectCast(sender, IDashboardControl)
 					Dim pieDashboardItem As PieDashboardItem = TryCast(dashboardControl.Dashboard.Items(pieItemName), PieDashboardItem)
 					If pieDashboardItem Is Nothing Then
 						Return
