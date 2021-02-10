@@ -19,8 +19,8 @@ Namespace piesCustomExport
 		Public Sub New()
 			InitializeComponent()
 			dashboardDesigner1.CreateRibbon()
-			dashboardDesigner1.LoadDashboard("..\..\data\nwind.xml")
-		End Sub
+            dashboardDesigner1.LoadDashboard("data\nwind.xml")
+        End Sub
 
 		Private Sub dashboardDesigner1_DashboardItemControlUpdated(ByVal sender As Object, ByVal e As DevExpress.DashboardWin.DashboardItemControlEventArgs) Handles dashboardDesigner1.DashboardItemControlUpdated
 			If e.ChartControl IsNot Nothing Then

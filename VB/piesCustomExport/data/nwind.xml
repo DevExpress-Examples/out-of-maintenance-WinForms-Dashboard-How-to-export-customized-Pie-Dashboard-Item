@@ -3,7 +3,7 @@
   <Title Text="Dashboard" />
   <DataSources>
     <ExtractFileDataSource ComponentName="dashboardExtractDataSource2" Name="Extract Data Source 2">
-      <FileName>D:\examples\WinForms Dashboard - How to export customized Pie Dashboard Item\CS\piesCustomExport\data\SalesPersonExtract.dat</FileName>
+      <FileName>data\SalesPersonExtract.dat</FileName>
       <Parameters />
       <SavedSchema>
         <Column>
