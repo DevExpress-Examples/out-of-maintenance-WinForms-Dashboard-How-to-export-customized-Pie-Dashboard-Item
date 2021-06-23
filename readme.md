@@ -3,7 +3,7 @@ _files to look at:_
 
 * [Form1.cs](./CS/piesCustomExport/Form1.cs) (VB: [Form1.vb](./VB/piesCustomExport/Form1.vb))
 
-# WinForms Dashboard - How to Export Customized Pie Dashboard Item
+# Dashboard for WinForms - How to Export Customized Pie Dashboard Item
 
 The following example shows how to export a Pie dashboard item with customized totals: 
 
