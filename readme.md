@@ -10,7 +10,7 @@ The following example shows how to export a Pie dashboard item with customized t
 
 ![pies-custom-export](/images/pies-custom-export.png)
 
-The [CustomExportEventArgs.GetPrintableControls](http://docs.devexpress.devx/Dashboard/DevExpress.DashboardCommon.CustomExportEventArgs.GetPrintableControls?v=20.2) method obtains the printable control when you handle the [DashboardDesigner.CustomExport](http://docs.devexpress.devx/Dashboard/DevExpress.DashboardWin.DashboardDesigner.CustomExport?v=20.2) event. The [DashboardDesigner.DashboardItemControlUpdated](http://docs.devexpress.devx/Dashboard/DevExpress.DashboardWin.DashboardDesigner.DashboardItemControlUpdated?v=20.2) event is raised to obtain and customize the underlying Pie control.
+The [CustomExportEventArgs.GetPrintableControls](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomExportEventArgs.GetPrintableControls?v=20.2) method obtains the printable control when you handle the [DashboardDesigner.CustomExport](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardDesigner.CustomExport?v=20.2) event. The [DashboardDesigner.DashboardItemControlUpdated](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardDesigner.DashboardItemControlUpdated?v=20.2) event is raised to obtain and customize the underlying Pie control.
 
 <!-- default file list -->
 ## Files to Look At
